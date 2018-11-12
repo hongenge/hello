@@ -1,0 +1,20 @@
+{
+    "name": "hongen/hello",
+    "description": "test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hongen",
+            "email": "zzwhe@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+		  "abc\\": "src/"
+		}
+	}
+}
